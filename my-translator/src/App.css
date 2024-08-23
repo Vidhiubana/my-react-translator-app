@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+  background-color: #92B9E3;
+}
+
+.container{
+  background-color: #92B9E3;
+}
+.rounded{
+  width: 60.33%;
+}
+
+.bg-body-tertiary{  background-color: #92B9E3 !important;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+  width: auto;
+}
+
+.btn-primary{
+  background-color: #6c7ee1;
+  color: white;
+  border: none;
+  margin: 40px 0px 100px 0px;
+}
+
+.btn-primary:hover{
+  background-color: #5665b7;
+  color: white;
+}
+.home-para{
+  text-align: center;
+}
+
+.translator-container {
+  background-color: #FFCC00; /* Match the background color */
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: auto;
+}
+.translation-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: white;
+}
+.icon-bar {
+  display: flex;
+  align-items: center;
+}
+.icon-bar > * {
+  margin: 0 5px;
+}
+.translation-textarea {
+  width: 45%;
+  height: 100px;
+}
+.translate-button {
+  width: 100%;
+  margin-top: 10px;
+}
+
+
+.controls,
+li,
+.icons,
+.icons i {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
